@@ -1,21 +1,23 @@
-*, *::after, *::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 .container {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	list-style: none;
 }
 .color {
-  width: 100px;
-  height: 500px;
-  background-color: beige;
+	width: 100px;
+	height: 500px;
 }
 
 .hex-value {
-  text-align: center;
-  margin-top: 0.5rem;
+	text-align: center;
+	margin-top: 0.5rem;
 }
