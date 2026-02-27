@@ -1,0 +1,21 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.color {
+  width: 100px;
+  height: 500px;
+  background-color: beige;
+}
+
+.hex-value {
+  text-align: center;
+  margin-top: 0.5rem;
+}
