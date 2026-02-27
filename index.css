@@ -1,24 +1,54 @@
 *,
 *::after,
 *::before {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  width: 550px;
+  font-family: "Inter", sans-serif;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1em 0;
+}
+
+.color-input {
+  width: 61px;
+  height: 41px;
+}
+
+.variant {
+  stroke: gray/300;
+  padding: 0.8em 0.5em;
+  width: 312px;
+}
+
+.submit-btn {
+  padding: 0.8em 0.5em;
 }
 
 .container {
-	display: flex;
-	gap: 1rem;
-	align-items: center;
-	list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
 }
 
 .color {
-	width: 100px;
-	height: 500px;
+  width: 110px;
+  height: 550px;
 }
 
 .hex-value {
-	text-align: center;
-	margin-top: 0.5rem;
+  text-align: center;
+  margin-top: 0.5rem;
+  padding: 0.5em 0;
+  color: #2b283a;
 }
