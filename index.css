@@ -5,13 +5,15 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
+/* Main */
 .container {
 	display: flex;
 	gap: 1rem;
 	align-items: center;
 	list-style: none;
 }
+
+/* Header */
 .color {
 	width: 100px;
 	height: 500px;
