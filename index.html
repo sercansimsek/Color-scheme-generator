@@ -1,24 +1,32 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="index.css" />
-		<title>Color Schema Generator</title>
-	</head>
-	<body>
-		<header>
-			<input type="color" value="#F55A5A" />
-			<select name="color" id="color">
-				<option value="Monochrome" selected></option>
-			</select>
-			<button>Get color scheme</button>
-		</header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Color Schema Generator</title>
+  </head>
+  <body>
+    <header>
+      <form class="form">
+        <input type="color" colorspace="display-p3" class="color-input" />
+        <select name="variant" id="variant" class="variant">
+          <option></option>
+        </select>
+        <button class="submit-btn">Get color scheme</button>
+      </form>
+    </header>
 
-		<main>
-			<ul class="container"></ul>
-		</main>
+    <main>
+      <ul class="container"></ul>
+    </main>
 
-		<script type="module" src="index.js"></script>
-	</body>
+    <script type="module" src="index.js"></script>
+  </body>
 </html>
